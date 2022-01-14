@@ -45,4 +45,4 @@ const parser=new MetadataParser({_keyField:'a',_channel:'b',_version:1});
 parser.setChannel('d');
 parser.setKeyField('f');
 console.log(parser.getVersion());
-MetadataParser.getKeyFields([new MetadataParser({_keyField:1,_version:2}),new MetadataParser({_keyField:2,_version:5})])
+console.log(MetadataParser.getKeyFields([new MetadataParser({_keyField:1,_version:2}),new MetadataParser({_keyField:2,_version:5})]));

@@ -43,4 +43,4 @@ class SortObjectArray extends SortArray{
 let obj=new SortObjectArray();
 
 obj.construct([{"abc":2},{"xyz":3},{"def":4},{"abc":2}]);
-obj.getSortedArray();
+console.log(obj.getSortedArray());

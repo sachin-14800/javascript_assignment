@@ -11,7 +11,7 @@ const groupObjectsBy=(arr,property)=>{
     return ans;
 }
 
-groupObjectsBy([ 
+let result=groupObjectsBy([ 
     {
       "channel": "A",
       "name": "shoe"
@@ -29,3 +29,5 @@ groupObjectsBy([
       "name": "electronics"
     }
 ],'channel');
+
+console.log(result);
